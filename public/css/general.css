@@ -1,0 +1,72 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+@import url('https://kit.fontawesome.com/d1b88dc995.js');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+footer{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+.main-header{
+    text-align: center;
+    width: 100%;
+}
+.busqueda{
+    width: 50%;
+}
+.p_nav{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.fondo{
+    background-color: #ebebeb;
+    font-family: 'Roboto Mono', monospace; 
+}
+
+.contenedor_pnav{
+    margin: auto;
+}
+.p_footer{
+    color: #666;
+    }
+    .icon-footer{
+        margin-top: 10px;
+        color: #1259c3;
+        font-size: 2em;
+    }
+    .icon-footer:hover{
+        color: #EAC926;;
+        transition: 
+        color,0.5s ;
+    }
+    a{
+        text-transform: uppercase;
+        font-size: 1rem;
+    }
+    main{
+           width: 90%;
+       height: 90vh;
+       margin: 0 auto;
+    }
+    
+    .icon-search{
+        font-size: 1.5rem;
+        background-color: #fff;
+        width: 2rem;
+        height: 2rem;
+        border-radius: 70px;
+        margin-left: 5px;
+    }
+    .nav_menu_link:hover  {
+background-color: rgb(229, 243, 104);
+    }
+    

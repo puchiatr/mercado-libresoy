@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+.main-header-top-bar{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-header{
+    text-align: center;
+    width: 100%;
+}
+p {
+    font-size: 12px;
+    margin: 0px;
+}
+.busqueda{
+    width: 50%;
+}
+nav {
+    display: none;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #666;
+}
+.precio{
+    font-size: 18px;
+    width: 30%;  
+    display: contents;
+}
+.descuento{
+    font-size: 1rem;
+   color: #39b54a;
+   width: 70%;
+   padding-left: 1rem;
+}
+.descripcion {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 1rem;
+    display: none;
+}
+.p_nav{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.fondo{
+    background-color: #ebebeb;
+    font-family: 'Roboto Mono', monospace; 
+}
+.contenedor_pnav{
+    margin: auto;
+}
+.burguer{
+    font-size:48px;
+    color:white;
+    display: block;
+    padding: 15px 0;
+    margin: auto;
+}
+.search{
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+.main-search{
+width: 50%;
+}
+.burguere{
+    background-color: #1259c3;
+    width: 5rem;
+    height: 5rem;
+    margin: 10px;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+.bus{
+    font-size: 20px;
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -1rem;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+footer{
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.h2_foot{
+    font-size: 10px;
+    color: #ebebeb;
+}
+.p_footer{
+color: #666;
+}
+.icon-footer{
+    margin-top: 10px;
+    color: #1259c3;
+    font-size: 2em;
+}
+a{
+    display: flex;
+}
+main{
+       width: 90%;
+   height: 90vh;
+   margin: 0 auto;
+}
+article{
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    flex-grow: .50;
+
+} 
+.resto_del_articulo{
+    border-top: 1px solid #ebebeb;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+.imagenes{
+    width: 90%;
+}
+.articulo{
+    display: contents;
+}
+.icon-search{
+    font-size: 1.5rem;
+    background-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 70px;
+    margin-left: 5px;
+}
+.img_mercado_libre{
+    width: 50%;
+}
+
+
+@media (min-width:720px) {
+    .descripcion{
+        font-size: 1rem;
+        color: #666;
+        margin-top: 1rem;
+        display: block;
+    }
+    .main-header-top-bar, .main-vbar{
+        max-width: 1280px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        align-items: center;
+        }
+        .p_nav{
+        max-width: none;
+        font-size: 14px;
+        text-align: right;
+        margin: 0px;
+        }
+    nav{
+        display: block;
+    }
+    .burguer{
+        display: none;
+    }
+    .main-vbar ul {
+        margin-top: 30px;
+        padding: 0px;
+        font-size: 14px;
+        display: flex;
+    }
+    .main-vbar a{
+        text-decoration: none;
+        color: #222222;
+        padding: 5px 0;
+        margin: 0 5px;
+    }
+    .main-vbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        display: table-cell;
+        width:45%;
+    }
+    p{
+        display: contents;
+    }
+    .img_mercado_libre{
+        width: 33%;
+    }
+    .busqueda{
+        width: 33%;
+    }
+    .contenedor_pnav{
+        width: 33%;
+    }
+    .sec_ofertas{
+    display: flex;
+    flex-wrap: wrap
+    }
+    .sec_articulos{
+        display: flex;
+    flex-wrap: wrap;
+    }
+}
+@media(min-width:1280px){
+    .main-header-top-bar, .main-vbar{
+        max-width: 1280px;
+        margin: auto;
+    }
+    .main-header-top-bar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+    }
+    .descripcion{
+        font-size: 1rem;
+        color: #666;
+        margin-top: 1rem;
+        display: block;
+    }
+    .p_nav{
+        max-width: none;
+        font-size: 12px;
+        text-align: right;
+        margin: 0px;
+    }
+    nav{
+        display: block;
+    }
+    .burguer{
+        display: none;
+    }
+    .main-vbar ul {
+        margin-top: 30px;
+        padding: 0px;
+        font-size: 14px;
+        display: flex;
+    }
+    .main-vbar a{
+        text-decoration: none;
+        color: #222222;
+        padding: 5px 0;
+        margin: 0 10px;
+    }
+    .main-vbar{
+        display: flex;
+        justify-content: space-between;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 22%;
+    }
+    p{
+        display: contents;
+    }
+    .sec_ofertas{
+        display: flex;
+        flex-wrap: wrap
+        }
+        .sec_articulos{
+            display: flex;
+        flex-wrap: wrap;
+        }
+}
